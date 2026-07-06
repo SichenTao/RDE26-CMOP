@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+build/
+outputs/
+code/rde26-cmop/rde_cmop_native/build/
+*.o
+*.out
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
