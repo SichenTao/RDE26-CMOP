@@ -1,11 +1,20 @@
-# RDE26-CMOP
+# 🏆 RDE26-CMOP
 
-RDE26-CMOP is the Rank 1 entry for Competition 4-CMOPs in the IEEE WCCI 2026 / IEEE CEC 2026 Competition on Numerical Optimization Considering Accuracy and Speed.
+![IEEE CEC 2026](https://img.shields.io/badge/IEEE%20CEC%202026-Champion-gold)
+![Official Rank](https://img.shields.io/badge/Official%20Rank-1-blue)
+![Track](https://img.shields.io/badge/Track-CMOPs-green)
+![Language](https://img.shields.io/badge/Language-C%2B%2B%20%2B%20Python-lightgrey)
 
-## Competition
+**RDE26-CMOP is the official Champion and Rank 1 winner of Competition 4-CMOPs in the IEEE WCCI 2026 / IEEE CEC 2026 Competition on Numerical Optimization Considering Accuracy and Speed.**
+
+This repository provides the final open-source algorithm package for the constrained multi-objective optimization track.
+
+## 🏆 Champion Result
 
 | Item | Description |
 | --- | --- |
+| Achievement | Champion / Rank 1 |
+| Competition | IEEE WCCI 2026 / IEEE CEC 2026 Competition on Numerical Optimization Considering Accuracy and Speed |
 | Track | Competition 4-CMOPs |
 | Problem class | Constrained multi-objective optimization |
 | Benchmark | 15 scalable decision-space constrained multi-objective optimization problems |
@@ -13,14 +22,22 @@ RDE26-CMOP is the Rank 1 entry for Competition 4-CMOPs in the IEEE WCCI 2026 / I
 | Budget | 200000 function evaluations per problem |
 | Population size | 100 |
 | Dimension | 30 |
-| Official rank | Rank 1 |
 | Official source | [P-N-Suganthan/2026-CEC](https://github.com/P-N-Suganthan/2026-CEC) |
 
-## Authors
+## ✨ Highlights
+
+- 🏆 Official Champion of the CEC 2026 CMOPs track.
+- ⚡ Designed for the competition setting that jointly evaluates accuracy and speed.
+- 📦 Clean final algorithm package with a track-specific `main.py` entry.
+- 🔬 Part of the RDE26 series that won all four CEC 2026 numerical optimization tracks.
+
+## Team
 
 Sichen Tao, Hanyu Hu, Ruihan Zhao, Qingke Zhang, Yifei Yang, Jian Wang, Masatoshi Kawai, and Hiroyuki Takizawa.
 
-## Contents
+Tohoku University-centered RDE26 research team.
+
+## Repository Layout
 
 | Path | Description |
 | --- | --- |
@@ -32,8 +49,9 @@ Sichen Tao, Hanyu Hu, Ruihan Zhao, Qingke Zhang, Yifei Yang, Jian Wang, Masatosh
 
 - Python 3
 - C++ compiler with C++17 support
+- No third-party Python package is required
 
-## Run
+## Quick Start
 
 ```bash
 python3 code/rde26-cmop/main.py
@@ -41,6 +59,13 @@ python3 code/rde26-cmop/main.py
 
 Generated outputs are written under `code/rde26-cmop/outputs/`.
 
-## Reference
+## RDEx Research Line
+
+RDE26-CMOP continues the RDEx research line from the CEC 2025 competition series to the 2026 accuracy-and-speed competition setting.
+
+- RDEx-CMOP 2025: [arXiv:2604.03708](https://arxiv.org/abs/2604.03708)
+- RDEx competition repository: [IEEE-CEC-2025-Competition-RDEx](https://github.com/SichenTao/IEEE-CEC-2025-Competition-RDEx)
+
+## Citation
 
 K. Qiao, X. Ban, P. Chen, K. V. Price, P. N. Suganthan, J. Liang, C. Yue, and G. Wu, "Performance comparison of CEC 2026 competition entries on numerical optimization considering accuracy and speed," IEEE WCCI/CEC 2026 competition slides.
